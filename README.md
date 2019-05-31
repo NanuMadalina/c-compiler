@@ -49,39 +49,39 @@ Constants may belong to any of the data type.Syntax:
 const data_type variable_name; (or) const data_type *variable_name;
 Types of Constants:
 
-  Integer constants – Example: 0, 1, 1218, 12482
-  Real or Floating point constants – Example: 0.0, 1203.03, 30486.184
-  Octal & Hexadecimal constants – Example: octal: (013 )8 = (11)10, Hexadecimal: (013)16 = (19)10
-  Character constants -Example: ‘a’, ‘A’, ‘z’
-  String constants -Example: “GeeksforGeeks”
+  - Integer constants – Example: 0, 1, 1218, 12482
+  - Real or Floating point constants – Example: 0.0, 1203.03, 30486.184
+  - Octal & Hexadecimal constants – Example: octal: (013 )8 = (11)10, Hexadecimal: (013)16 = (19)10
+  - Character constants -Example: ‘a’, ‘A’, ‘z’
+  - String constants -Example: “GeeksforGeeks”
 
 <b> Strings:</b>  Strings are nothing but an array of characters ended with a null character (‘\0’).This null character indicates the end of the string. Strings are always enclosed in double quotes. Whereas, a character is enclosed in single quotes in C and C++.Declarations for String:
-char string[20] = {‘g’, ’e’, ‘e’, ‘k’, ‘s’, ‘f’, ‘o’, ‘r’, ‘g’, ’e’, ‘e’, ‘k’, ‘s’, ‘\0’};
-char string[20] = “geeksforgeeks”;
-char string [] = “geeksforgeeks”;
+  - char string[20] = {‘g’, ’e’, ‘e’, ‘k’, ‘s’, ‘f’, ‘o’, ‘r’, ‘g’, ’e’, ‘e’, ‘k’, ‘s’, ‘\0’};
+  - char string[20] = “geeksforgeeks”;
+  - char string [] = “geeksforgeeks”;
 Difference between above declarations are:
 
-1.when we declare char as “string[20]”, 20 bytes of memory space is allocated for holding the string value.
-2.when we declare char as “string[]”, memory space will be allocated as per the requirement during execution of the program.
+  1.when we declare char as “string[20]”, 20 bytes of memory space is allocated for holding the string value.
+  2.when we declare char as “string[]”, memory space will be allocated as per the requirement during execution of the program.
 
 <b> Special Symbols:</b> The following special symbols are used in C having some special meaning and thus, cannot be used for some other purpose.[] () {}, ; * = #
 
-  Brackets[]: Opening and closing brackets are used as array element reference. These indicate single and multidimensional subscripts.
-  Parentheses(): These special symbols are used to indicate function calls and function parameters.
-  Braces{}: These opening and ending curly braces marks the start and end of a block of code containing more than one executable statement.
-  comma (, ): It is used to separate more than one statements like for separating parameters in function calls.
-  semi colon : It is an operator that essentially invokes something called an initialization list.
-  asterick (*): It is used to create pointer variable.
-  assignment operator: It is used to assign values.
-  pre processor(#): The preprocessor is a macro processor that is used automatically by the compiler to transform your program before actual compilation.
+  - Brackets[]: Opening and closing brackets are used as array element reference. These indicate single and multidimensional subscripts.
+  - Parentheses(): These special symbols are used to indicate function calls and function parameters.
+  - Braces{}: These opening and ending curly braces marks the start and end of a block of code containing more than one executable statement.
+  - comma (, ): It is used to separate more than one statements like for separating parameters in function calls.
+  - semi colon : It is an operator that essentially invokes something called an initialization list.
+  - asterick (*): It is used to create pointer variable.
+  - assignment operator: It is used to assign values.
+  - pre processor(#): The preprocessor is a macro processor that is used automatically by the compiler to transform your program before actual compilation.
 
 <b> Operators:</b> Operators are symbols that triggers an action when applied to C variables and other objects. The data items on which operators act upon are called operands.
 Depending on the number of operands that an operator can act upon, operators can be classified as follows:
-  Unary Operators: Those operators that require only single operand to act upon are known as unary operators.For Example increment and decrement operators
-  Binary Operators: Those operators that require two operands to act upon are called binary operators. Binary operators are classified into :
-  Arithmetic operators
-  Relational Operators
-  Logical Operators
-  Assignment Operators
-  Conditional Operators
-  Bitwise Operators
+  - Unary Operators: Those operators that require only single operand to act upon are known as unary operators.For Example increment and decrement operators
+  - Binary Operators: Those operators that require two operands to act upon are called binary operators. Binary operators are classified into :
+        - Arithmetic operators
+        - Relational Operators
+        - Logical Operators
+        - Assignment Operators
+        - Conditional Operators
+        - Bitwise Operators
