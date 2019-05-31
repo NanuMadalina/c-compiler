@@ -1,0 +1,81 @@
+identifier - e12
+string - "*////////*"
+operator - *
+operator - /
+string - "/*lkjlkj'e'"
+string - "/*"
+operator - *
+operator - /
+error - string token not properly ended: "/*\\\\''*/'\\\\\
+error - exponent token is written wrong: \
+error - exponent token is written wrong: \
+error - exponent token is written wrong: \
+string - ""
+operator - /
+operator - *
+operator - *
+operator - /
+keyword - void
+identifier - main
+special symbols - (
+keyword - int
+identifier - argc
+operator - ,
+keyword - char
+operator - *
+identifier - argv
+special symbols - [
+special symbols - ]
+special symbols - )
+special symbols - {
+string - "12e-25"
+keyword - if
+special symbols - (
+special symbols - (
+identifier - e12
+operator - .
+identifier - f
+operator - ++
+operator - +=
+exponent - 12e-3
+operator - <<=
+exponent - 12.3e-12
+operator - +
+operator - *
+identifier - ab12
+operator - .
+identifier - ef
+special symbols - )
+operator - &&
+identifier - qwe
+operator - .
+identifier - f
+operator - .
+identifier - e
+operator - /
+operator - *
+identifier - f
+operator - ++
+operator - ++
+operator - +
+identifier - g
+special symbols - )
+special symbols - {
+special symbols - ;
+special symbols - }
+character - '0'
+special symbols - ;
+identifier - f
+special symbols - (
+special symbols - )
+special symbols - ;
+error - string token not properly ended: "ana
+identifier - are
+identifier - mere
+error - string token not properly ended: "
+keyword - return
+integer - 0
+special symbols - ;
+special symbols - }
+string - "as"
+identifier - asd
