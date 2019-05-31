@@ -44,7 +44,7 @@ Temp.var	 Invalid as it contains special character other than the underscore
 void	     Invalid as it is a keyword
 
 
-Constants: Constants are also like normal variables. But, only difference is, their values can not be modified by the program once they are defined. Constants refer to fixed values. They are also called as literals.
+<b> Constants:</b>  Constants are also like normal variables. But, only difference is, their values can not be modified by the program once they are defined. Constants refer to fixed values. They are also called as literals.
 Constants may belong to any of the data type.Syntax:
 const data_type variable_name; (or) const data_type *variable_name;
 Types of Constants:
@@ -55,7 +55,7 @@ Types of Constants:
   Character constants -Example: ‘a’, ‘A’, ‘z’
   String constants -Example: “GeeksforGeeks”
 
-Strings: Strings are nothing but an array of characters ended with a null character (‘\0’).This null character indicates the end of the string. Strings are always enclosed in double quotes. Whereas, a character is enclosed in single quotes in C and C++.Declarations for String:
+<b> Strings:</b>  Strings are nothing but an array of characters ended with a null character (‘\0’).This null character indicates the end of the string. Strings are always enclosed in double quotes. Whereas, a character is enclosed in single quotes in C and C++.Declarations for String:
 char string[20] = {‘g’, ’e’, ‘e’, ‘k’, ‘s’, ‘f’, ‘o’, ‘r’, ‘g’, ’e’, ‘e’, ‘k’, ‘s’, ‘\0’};
 char string[20] = “geeksforgeeks”;
 char string [] = “geeksforgeeks”;
@@ -64,7 +64,7 @@ Difference between above declarations are:
 1.when we declare char as “string[20]”, 20 bytes of memory space is allocated for holding the string value.
 2.when we declare char as “string[]”, memory space will be allocated as per the requirement during execution of the program.
 
-Special Symbols: The following special symbols are used in C having some special meaning and thus, cannot be used for some other purpose.[] () {}, ; * = #
+<b> Special Symbols:</b> The following special symbols are used in C having some special meaning and thus, cannot be used for some other purpose.[] () {}, ; * = #
 
   Brackets[]: Opening and closing brackets are used as array element reference. These indicate single and multidimensional subscripts.
   Parentheses(): These special symbols are used to indicate function calls and function parameters.
@@ -75,7 +75,7 @@ Special Symbols: The following special symbols are used in C having some special
   assignment operator: It is used to assign values.
   pre processor(#): The preprocessor is a macro processor that is used automatically by the compiler to transform your program before actual compilation.
 
-Operators: Operators are symbols that triggers an action when applied to C variables and other objects. The data items on which operators act upon are called operands.
+<b> Operators:</b> Operators are symbols that triggers an action when applied to C variables and other objects. The data items on which operators act upon are called operands.
 Depending on the number of operands that an operator can act upon, operators can be classified as follows:
   Unary Operators: Those operators that require only single operand to act upon are known as unary operators.For Example increment and decrement operators
   Binary Operators: Those operators that require two operands to act upon are called binary operators. Binary operators are classified into :
