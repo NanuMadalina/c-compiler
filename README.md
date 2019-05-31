@@ -10,12 +10,12 @@ The lexical analyzer will use an automatic determinist that will have a final st
 ## C Tokens
 A token is the smallest element of a program that is meaningful to the compiler. Tokens can be classified as follows:
 
-Keywords
-Identifiers
-Constants
-Strings
-Special Symbols
-Operators
+- Keywords
+- Identifiers
+- Constants
+- Strings
+- Special Symbols
+- Operators
 
 <b> Keyword </b>: Keywords are pre-defined or reserved words in a programming language. Each keyword is meant to perform a specific function in a program. Since keywords are referred names for a compiler, they can’t be used as variable names because by doing so, we are trying to assign a new meaning to the keyword which is not allowed. You cannot redefine keywords. However, you can specify text to be substituted for keywords before compilation by using C/C++ preprocessor directives.C language supports 32 keywords which are given below:
 
